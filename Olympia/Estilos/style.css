@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "palatinoregular";
+  src: url("../Font/palatino_font-webfont.woff2") format("woff2"),
+    url("../Font/palatino_font-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Validada */
+
+/* Toda la página*/
+body {
+  font-family: "palatino_font-webfont" !important ;
+  background-color: rgba(217, 255, 224, 0.3) !important;
+}
+
+.input-group-append {
+  cursor: pointer;
+}
+
+hr.acentos {
+  height: 0.4rem !important;
+  width: 5rem !important;
+  color: #008282 !important;
+  margin: 0.5rem !important;
+  opacity: 1 !important;
+}
+
+/* BarraNav */
+.dropdown-item:hover {
+  color: black !important;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: #008282 !important;
+  border: 0px !important;
+}
+
+.BarraNav {
+  background-color: #008282;
+}
+
+/*Footer*/
+#footer {
+  color: white !important;
+  background-color: #008282;
+}
+#Footer_Follow {
+  margin-left: 1.25rem;
+}
+#link_correo {
+  color: white;
+  text-decoration: none;
+}
+.Footer_Button {
+  border-color: transparent;
+  background-color: #008282;
+}
+.Footer_Button > img {
+  width: 2rem;
+}
+
+/*Fotos*/
+.img-reserva {
+  border-radius: 10px;
+}
+.Envolver {
+  display: flex;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #008282 !important;
+  border-color: #008283 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #c9a812 !important;
+  border-color: #c9a813 !important;
+}
+
+/* Menú lateral*/
+#MenuLateral {
+  justify-content: flex-end !important;
+}
+#BotonLateral {
+  margin: 0.2rem 0.4rem 0.2rem 0.2rem;
+}
+/* Salas */
+
+.thead-dark {
+  background-color: #008282;
+}
+.thead-dark > tr > th {
+  color: white;
+}
+
+/* Localización*/
+.mapa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#mapa-google {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Reserva */
+span.asterisco {
+  color: red;
+}
+.error0 {
+  visibility: hidden;
+}
+.error1 {
+  visibility: visible;
+  color: rgb(255, 59, 59);
+  font-weight: 300;
+}
+
+
+#MiTabla{
+  background-color: #008282;
+  color: white;
+}
+
+/* Examen */
+#btn-examen{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+p>span{
+  text-transform: uppercase;
+}
+.disponible{
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Fin examen*/

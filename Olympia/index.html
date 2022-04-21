@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Validada -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Club deportivo Olympia, un club privado y selecto donde reservar pistas de fútbol, pádel, tenis y muchos más deportes">
+    <title>Club Olympia</title>
+    <link rel="stylesheet" href="./Estilos/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="./Imagenes/Club_Olympia_Icon.png">
+</head>
+
+<body>
+    <!-- Inicio Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark BarraNav">
+        <div class="container-fluid">
+            <!-- Logo de Olympia -->
+            <a class="navbar-brand club-olympia" href="index.html"><img src="./Imagenes/Club_Olympia.png"
+                    alt="Logo, una pelota de tenis rodeada de una corona de laurel" style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Fin logo de Olympia-->
+
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <strong> Inicio </strong> </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Reservar</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./salas.html">Información sobre las pistas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./reservaPadel.html">Pádel</a></li>
+                            <li><a class="dropdown-item" href="./reservaTenis.html">Tenis</a></li>
+                            <li><a class="dropdown-item" href="./reservaFutbol.html">Futbol</a></li>
+                            <li><a class="dropdown-item" href="./reservaBaloncesto.html">Baloncesto</a></li>
+                            <li><a class="dropdown-item" href="./reservaFutbolSala.html">Fútbol Sala</a></li>
+                            <li><a class="dropdown-item" href="./reservaVolley.html">Volleyball</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./localizacion.html">Localizacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#footer" tabindex="-1">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fin Menu-->
+        </div>
+    </nav>
+    <!-- Fin Barra de Navegación-->
+
+    <div class="row">
+        <div class="col-sm-12 Envolver justify-content-center">
+            <img src="./Imagenes/principal.jpeg" alt="Vista global del club" class="img-fluid" style="width: 100%;">
+        </div>
+    </div>
+    <div class="container">
+
+
+        <!-- Menu Lateral-->
+        <div class="row justify-content-end p-2">
+            <div class="col-md-3 col-sm-4 Envolver justify-content-end">
+                <aside id="MenuLateral">
+                    <button id="BotonLateral" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Calendario de Eventos
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel"><strong>Calendario de Eventos</strong></h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <hr class="acentos">
+                            <img class="img-fluid" src="./Imagenes/tenis.jpg" alt="Campeonato Tenis"
+                                style="width: 50rem;">
+                            <p style="font-size: large; margin-top: 1rem;"> <strong> Campeonato de Tenis</strong></p>
+                            <p style="font-size: medium;"> <u>¿Cuándo?:</u> Sábado 26 de Marzo a las 18:00h.</p>
+                            <p style="font-size: medium;"> <u>Premio:</u> Trofeo + set de equipamiento de tenis</p>
+                            <p style="font-size: medium;"> <u>Inscripción</u> 2€/persona</p>
+                            <hr class="acentos">
+                            <img class="img-fluid" src="./Imagenes/volleyball.jpg" alt="Campeonato Volleyball"
+                                style="width: 50rem;">
+                            <p style="font-size: large; margin-top: 1rem;"> <strong> Campeonato de Volleyball</strong>
+                            </p>
+                            <p style="font-size: medium;"> <u>¿Cuándo?:</u> Sábado 16 de Abril a las 10:00h.</p>
+                            <p style="font-size: medium;"> <u>Premio:</u> Trofeo + 100€ (Primer puesto) 50€ (Segundo
+                                puesto) 25€ (Tercer puesto)</p>
+                            <p style="font-size: medium;"> <u>Inscripción</u> 2€/persona</p>
+                            <hr class="acentos">
+                            <img class="img-fluid" src="./Imagenes/FutbolFemenino.png"
+                                alt="Jugadora del Xerez Feminas FC entrando a una jugadora del equipo contrario"
+                                style="width:  50rem;">
+                            <p style="font-size: large; margin-top: 1rem;"> <strong> Fútbol Femenino: Nos vuelve a ganer
+                                    el Xerez </strong></p>
+                            <p style="font-size: medium;"> Categorizado como "una paliza" por todos aquellos que
+                                presenciaron el partido, el Xerez nos gana 3-0 otra vez. Nuestro equipo, el OlympiaFem
+                                se declaraba "completamente incapaz de marcar" tras la
+                                impresionante defensa de Nerea Íñiguez </p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <!-- Fin Menu Lateral-->
+
+        <!-- Cuerpo -->
+        <div class="row justify-content-around p-2">
+            <div class="col-sm-6 ">
+                <!-- Carrusel de fotos -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner img-reserva">
+                        <div class="carousel-item active img-fluid Envolver">
+                            <img src="./Imagenes/club.jpg" class="d-block w-100"
+                                alt="Fuente en primer plano, con el edificio principal al fondo tras un camino de cemento">
+                        </div>
+                        <div class="carousel-item img-fluid Envolver">
+                            <img src="./Imagenes/club2.jpg" class="d-block w-100"
+                                alt="Parque infantil con un columpio y dos toboganes al costado de las pistas deportivas">
+                        </div>
+                        <div class="carousel-item img-fluid Envolver">
+                            <img src="./Imagenes/club3.jpg" class="d-block w-100"
+                                alt="Vista aérea de algunas de las pistas">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+                <!-- Carrusel de fotos -->
+            </div>
+
+            <div class="col-sm-6 ">
+                <h3><strong>Club Deportivo Olympia</strong></h3>
+                <hr class="acentos">
+                <p style="font-size: large; margin-top: 1rem;">El Club Deportivo Olympia, fundado en 2001, es una
+                    asociación deportivo-recreativa que dispone de
+                    una superficie de instalaciones y zonas verdes.
+                    Está situado en en el centro de la ciudad de Vitoria-Gasteiz, en Álava.
+                </p>
+                <h4><strong>Instalaciones</strong></h4>
+                <hr class="acentos">
+                <p style="font-size: large; margin-top: 1rem;"> Dispone de instalaciones para todo tipo de actividades:
+                    amplias zonas verdes, instalaciones deportivas,
+                    parque infantil, salones sociales, restaurante y bares, vestuarios y dependencias varias.
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-around p-2">
+            <div class="col-sm-6">
+                <h4><strong>Ocio</strong></h4>
+                <hr class="acentos">
+                <p style="font-size: large; margin-top: 2rem;">Las instalaciones deportivas se componen de tres pistas
+                    de pádel, cuatro de tenis, cuatro de fútbol, dos de fútbol sala, cuatro de baloncesto y dos de
+                    volleyball.
+                    Completan las instalaciones los vestuarios, que mejoran su capacidad adaptándose a las necesidades
+                    actuales que genera el incremento de la oferta de instalaciones deportivas.
+                    En el edificio principal se ubica un restaurante y los salones sociales. El club cuenta con una
+                    carpa para celebraciones y actos sociales.
+                </p>
+                <a href="salas.html" class="btn btn-primary" style="font-size: 1rem;"> Pistas </a>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid img-reserva" src="./Imagenes/salondeactos.jpg" alt="Salón de actos">
+            </div>
+        </div>
+    </div>
+    <!-- Fin cuerpo -->
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            CLUB OLYMPIA
+                        </h6>
+                        <p>
+                            Somos una asociación deportivo-recreativa que dispone de
+                            una superficie de instalaciones y zonas verdes donde podrás pasar un buen rato y hacer lo
+                            que más te gusta: ¡deporte!
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Enlaces -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Enlaces</h6>
+                        <p>
+                            <a class="text-white" href="./index.html">Inicio</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="./salas.html">Pistas</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="./localizacion.html">Localizacion</a>
+                        </p>
+                    </div>
+                    <!-- Fin enlaces -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Contacto -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                        <p><i class="fas fa-home mr-3"></i> Av. Universidad de Cádiz, 10, 11519 Puerto Real, Cádiz</p>
+                        <p><i class="fas fa-envelope mr-3"></i><a id=link_correo
+                                href="mailto:info@olympia.com">info@Olympia.com</a>
+                        </p>
+                        <p><i class="fas fa-phone mr-3"></i> + 34 661 284 595</p>
+                        <p><i class="fas fa-print mr-3"></i> + 34 956 855 935</p>
+                    </div>
+                    <!-- Fin contacto -->
+
+                    <!-- Redes sociales -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 id="Footer_Follow" class="text-uppercase mb-4 font-weight-bold">Síguenos</h6>
+
+                        <!-- Facebook -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="facebook.com/Olympia" role="button">
+                            <img src="./Imagenes/facebook.png" alt="Facebook">
+                        </a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="twitter.com/Olympia" role="button">
+                            <img src="./Imagenes/twitter.png" alt="Twitter">
+                        </a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="instagram.com/Olympia" role="button">
+                            <img src="./Imagenes/instagram.png" alt="Instagram">
+                        </a>
+
+                        <!-- Youtube -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="Youtube.com/Olympia" role="button">
+                            <img src="./Imagenes/youtube.png" alt="Youtube">
+                        </a>
+                    </div>
+                    <!-- Fin redes sociales -->
+
+                </div>
+                <!--Grid row-->
+            </section>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2022 Copyright:
+            <a class="text-white" href="index.html">ClubOlympia.com</a>
+        </div>
+        <!-- Fin copyright -->
+
+    </footer>
+    <!-- Fin footer -->
+
+    <!-- SCRIPTS JS (OBLIGATORIO)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

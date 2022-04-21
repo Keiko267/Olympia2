@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Validada-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Club deportivo Olympia, un club privado y selecto donde reservar pistas de fútbol, pádel, tenis y muchos más deportes">
+    <title>Club Olympia</title>
+    <link rel="stylesheet" href="./Estilos/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="./Imagenes/Club_Olympia_Icon.png">
+</head>
+
+<body>
+    <!-- Inicio Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark BarraNav">
+        <div class="container-fluid">
+            <!-- Logo de Olympia -->
+            <a class="navbar-brand club-olympia" href="index.html"><img src="./Imagenes/Club_Olympia.png"
+                    alt="Logo, una pelota de tenis rodeada de una corona de laurel" style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Fin logo de Olympia-->
+
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> <strong>Reservar</strong> </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><strong>Información sobre las pistas</strong></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./reservaPadel.html">Pádel</a></li>
+                            <li><a class="dropdown-item" href="./reservaTenis.html">Tenis</a></li>
+                            <li><a class="dropdown-item" href="./reservaFutbol.html">Futbol</a></li>
+                            <li><a class="dropdown-item" href="./reservaBaloncesto.html">Baloncesto</a></li>
+                            <li><a class="dropdown-item" href="./reservaFutbolSala.html">Fútbol Sala</a></li>
+                            <li><a class="dropdown-item" href="./reservaVolley.html">Volleyball</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./localizacion.html"> Localizacion </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#footer" tabindex="-1">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Fin Menu-->
+        </div>
+    </nav>
+    <!-- Fin barra navegación -->
+
+    <!-- Reservas-->
+    <div class="container">
+
+        <div class="row p-3 g-3">
+            <!-- Carta uno -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <article>
+                    <div class="card">
+                        <img src="./Imagenes/pistaPadelCarta.jpeg" alt="Imagen pista de pádel" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pádel</h5>
+                            <p class="card-text"> Contamos con tres pistas de pádel al aire libre. Puedes traer hasta
+                                tres compañeros para jugar en parejas o uno contra uno ¿A qué esperas para reservar?</p>
+                            <a href="reservaPadel.html" class="btn btn-primary"> Reserva Padel </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Fin carta uno -->
+
+            <!-- Carta dos -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <article>
+                    <div class="card">
+                        <img src="./Imagenes/pistadetenisCarta.jpg" alt="Imagen pista de tenis" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Tenis</h5>
+                            <p class="card-text"> Contamos con cuatro pistas de tenis al aire libre. Puedes traer hasta
+                                tres compañeros para jugar en parejas o uno contra uno ¿A qué esperas para reservar?</p>
+                            <a href="reservaTenis.html" class="btn btn-primary"> Reserva Tenis </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Fin carta dos -->
+
+            <!-- Carta tres -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <article>
+                    <div class="card">
+                        <img src="./Imagenes/pistaFutbolCarta.jpg" alt="Imagen pista de fútbol" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Fútbol</h5>
+                            <p class="card-text"> Contamos con cuatro pistas de fútbol al aire libre. Trae a todo tu
+                                equipo para jugar contra otro o dividiros para una pachanga ¿A qué esperas para
+                                reservar?</p>
+                            <a href="reservaFutbol.html" class="btn btn-primary"> Reserva Fútbol </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Fin carta tres -->
+        </div>
+
+        <div class="row p-3 g-3">
+            <!-- Carta cuatro -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <article>
+                    <div class="card">
+                        <img src="./Imagenes/pistadebaloncestoCarta.jpg" alt="Imagen pista de baloncesto"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Baloncesto </h5>
+                            <p class="card-text"> Contamos con cuatro pistas de baloncesto bajo techo. Trae a tu equipo
+                                para jugar contra otros ¿A qué esperas para reservar?</p>
+                            <a href="reservaBaloncesto.html" class="btn btn-primary"> Reserva Baloncesto </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Fin carta cuatro -->
+
+            <!-- Carta cinco -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <article>
+                    <div class="card">
+
+                        <img src="./Imagenes/pistaFutbolSalaCarta.webp" alt="Imagen pista de fútbol sala"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Fútbol Sala </h5>
+                            <p class="card-text"> Contamos con dos pistas de fútbol sala al aire libre. Trae a tu equipo
+                                para pasar un buen rato ¿A qué esperas para reservar?</p>
+                            <a href="reservaFutbolSala.html" class="btn btn-primary"> Reserva Fútbol Sala </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Fin carta cinco -->
+
+            <!-- Carta seis -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <article>
+                    <div class="card">
+                        <img src="./Imagenes/pistaVolleyballCarta.jpg" alt="Imagen pista de volleyball"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Volleyball </h5>
+                            <p class="card-text"> Contamos con dos pistas de volleyball al aire libre. Ven con tus
+                                compañeros para divertiros y competir ¿A qué esperas para reservar?</p>
+                            <a href="reservaVolley.html" class="btn btn-primary"> Reserva Volleyball </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Fin carta seis -->
+        </div>
+    </div>
+    <!-- Fin reservas-->
+
+    <!-- Inicio tabla -->
+    <div class="container table-responsive py-5">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Padel</th>
+                    <th scope="col">Tenis</th>
+                    <th scope="col"> Fútbol </th>
+                    <th scope="col">Baloncesto</th>
+                    <th scope="col">Fútbol Sala</th>
+                    <th scope="col">Volleyball</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Invitado</th>
+                    <td>15&euro;</td>
+                    <td>15&euro;</td>
+                    <td>60&euro;</td>
+                    <td>35&euro;</td>
+                    <td>45&euro;</td>
+                    <td>40&euro;</td>
+                </tr>
+                <tr>
+                    <th scope="row">Miembro</th>
+                    <td>11,25&euro;</td>
+                    <td>11,25&euro;</td>
+                    <td>45&euro;</td>
+                    <td>26,25&euro;</td>
+                    <td>33,75&euro;</td>
+                    <td>30&euro;</td>
+                </tr>
+                <tr>
+                    <th scope="row">VIP</th>
+                    <td>7,5&euro;</td>
+                    <td>7,5&euro;</td>
+                    <td>30&euro;</td>
+                    <td>17,5&euro;</td>
+                    <td>22,5&euro;</td>
+                    <td>20&euro;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Fin tabla -->
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            CLUB OLYMPIA
+                        </h6>
+                        <p>
+                            Somos una asociación deportivo-recreativa que dispone de
+                            una superficie de instalaciones y zonas verdes donde podrás pasar un buen rato y hacer lo
+                            que más te gusta: ¡deporte!
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Enlaces -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Enlaces</h6>
+                        <p>
+                            <a class="text-white" href="./index.html">Inicio</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="./salas.html">Pistas</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="./localizacion.html">Localizacion</a>
+                        </p>
+                    </div>
+                    <!-- Fin enlaces -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Contacto -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                        <p><i class="fas fa-home mr-3"></i> Av. Universidad de Cádiz, 10, 11519 Puerto Real, Cádiz</p>
+                        <p><i class="fas fa-envelope mr-3"></i><a id=link_correo
+                                href="mailto:info@olympia.com">info@Olympia.com</a>
+                        </p>
+                        <p><i class="fas fa-phone mr-3"></i> + 34 661 284 595</p>
+                        <p><i class="fas fa-print mr-3"></i> + 34 956 855 935</p>
+                    </div>
+                    <!-- Fin contacto -->
+
+                    <!-- Redes sociales -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 id="Footer_Follow" class="text-uppercase mb-4 font-weight-bold">Síguenos</h6>
+
+                        <!-- Facebook -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="facebook.com/Olympia" role="button">
+                            <img src="./Imagenes/facebook.png" alt="Facebook">
+                        </a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="twitter.com/Olympia" role="button">
+                            <img src="./Imagenes/twitter.png" alt="Twitter">
+                        </a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="instagram.com/Olympia" role="button">
+                            <img src="./Imagenes/instagram.png" alt="Instagram">
+                        </a>
+
+                        <!-- Youtube -->
+                        <a class="btn btn-primary btn-floating m-1 Footer_Button" target="_blank"
+                            href="Youtube.com/Olympia" role="button">
+                            <img src="./Imagenes/youtube.png" alt="Youtube">
+                        </a>
+                    </div>
+                    <!-- Fin redes sociales -->
+
+                </div>
+                <!--Grid row-->
+            </section>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2022 Copyright:
+            <a class="text-white" href="#">ClubOlympia.com</a>
+        </div>
+        <!-- Fin copyright -->
+
+    </footer>
+    <!-- Fin footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
